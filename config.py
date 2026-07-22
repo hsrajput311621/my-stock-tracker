@@ -65,18 +65,19 @@ PORTFOLIO = {
 # These are ETFs/funds that we monitor for buying opportunities during dips
 # ---------------------------------------------------------------------------
 ETFS = {
-    "NIFTYBEES":      {"name": "Nifty 50 BeES",               "yf": "NIFTYBEES.NS"},
-    "BANKBEES":       {"name": "Nifty Bank BeES",             "yf": "BANKBEES.NS"},
-    "ITBEES":         {"name": "Nifty IT BeES",               "yf": "ITBEES.NS"},
-    "PHARMABEES":     {"name": "Nifty Pharma BeES",           "yf": "PHARMABEES.NS"},
-    "NEXT50IETF":     {"name": "Nifty Next 50 ETF",           "yf": "NEXT50IETF.NS"},
-    "MIDCAPETF":      {"name": "Nifty Midcap 150 ETF",        "yf": "MIDCAPETF.NS"},
-    "SMALLETF":       {"name": "Nifty Smallcap 100 ETF",      "yf": "SMALLCAPETF.NS"},
-    "GOLDBEES":       {"name": "Gold BeES",                   "yf": "GOLDBEES.NS"},
-    "LIQUIDBEES":     {"name": "Liquid BeES",                 "yf": "LIQUIDBEES.NS"},
-    "PSUBNKBEES":     {"name": "Nifty PSU Bank BeES",         "yf": "PSUBNKBEES.NS"},
-    "HDFCSML250":     {"name": "HDFC Nifty Smallcap 250 ETF", "yf": "HDFCSML250.NS"},
+    "NIFTYBEES":      {"name": "Nifty 50 BeES",               "yf": "NIFTYBEES.NS", "alloc": 1.0, "freq": "Weekly"},
+    "BANKBEES":       {"name": "Nifty Bank BeES",             "yf": "BANKBEES.NS", "alloc": 1.0, "freq": "Weekly"},
+    "ITBEES":         {"name": "Nifty IT BeES",               "yf": "ITBEES.NS", "alloc": 1.0, "freq": "Weekly"},
+    "PHARMABEES":     {"name": "Nifty Pharma BeES",           "yf": "PHARMABEES.NS", "alloc": 1.0, "freq": "Weekly"},
+    "NEXT50IETF":     {"name": "Nifty Next 50 ETF",           "yf": "NEXT50IETF.NS", "alloc": 1.0, "freq": "Weekly"},
+    "MIDCAPETF":      {"name": "Nifty Midcap 150 ETF",        "yf": "MIDCAPETF.NS", "alloc": 1.0, "freq": "Weekly"},
+    "SMALLETF":       {"name": "Nifty Smallcap 100 ETF",      "yf": "SMALLCAPETF.NS", "alloc": 1.0, "freq": "Weekly"},
+    "GOLDBEES":       {"name": "Gold BeES",                   "yf": "GOLDBEES.NS", "alloc": 1.0, "freq": "Weekly"},
+    "LIQUIDBEES":     {"name": "Liquid BeES",                 "yf": "LIQUIDBEES.NS", "alloc": 1.0, "freq": "Weekly"},
+    "PSUBNKBEES":     {"name": "Nifty PSU Bank BeES",         "yf": "PSUBNKBEES.NS", "alloc": 1.0, "freq": "Weekly"},
+    "HDFCSML250":     {"name": "HDFC Nifty Smallcap 250 ETF", "yf": "HDFCSML250.NS", "alloc": 1.0, "freq": "Weekly"}
 }
+
 # ---------------------------------------------------------------------------
 # Notifications (ntfy.sh — free, no account)
 # Pick your own random topic name (Setup step 1 in the README) and either
