@@ -66,7 +66,7 @@ PORTFOLIO = {
 # Pick your own random topic name (Setup step 1 in the README) and either
 # set it here or as a GitHub Actions secret named NTFY_TOPIC.
 # ---------------------------------------------------------------------------
-NTFY_TOPIC = "hitesh-stock-9f3k2x"
+NTFY_TOPIC = os.getenv("NTFY_TOPIC") or "hitesh-stocks-CHANGE-THIS-SUFFIX"
 NTFY_SERVER = os.getenv("NTFY_SERVER") or "https://ntfy.sh"
 
 # ---------------------------------------------------------------------------
