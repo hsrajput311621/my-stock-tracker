@@ -60,7 +60,23 @@ PORTFOLIO = {
     "SBIN":       {"name": "State Bank of India",            "yf": "SBIN.NS",     "alloc": 0.4,  "freq": "Weekly"},
     "MOM30IETF":  {"name": "ICICI Nifty200 Momentum30 ETF",  "yf": "MOM30IETF.NS","alloc": 0.05, "freq": "Weekly"},
 }
-
+# ---------------------------------------------------------------------------
+# ETF watchlist for dip detection (separate from your main PORTFOLIO)
+# These are ETFs/funds that we monitor for buying opportunities during dips
+# ---------------------------------------------------------------------------
+ETFS = {
+    "NIFTYBEES":      {"name": "Nifty 50 BeES",               "yf": "NIFTYBEES.NS"},
+    "BANKBEES":       {"name": "Nifty Bank BeES",             "yf": "BANKBEES.NS"},
+    "ITBEES":         {"name": "Nifty IT BeES",               "yf": "ITBEES.NS"},
+    "PHARMABEES":     {"name": "Nifty Pharma BeES",           "yf": "PHARMABEES.NS"},
+    "NEXT50IETF":     {"name": "Nifty Next 50 ETF",           "yf": "NEXT50IETF.NS"},
+    "MIDCAPETF":      {"name": "Nifty Midcap 150 ETF",        "yf": "MIDCAPETF.NS"},
+    "SMALLETF":       {"name": "Nifty Smallcap 100 ETF",      "yf": "SMALLCAPETF.NS"},
+    "GOLDBEES":       {"name": "Gold BeES",                   "yf": "GOLDBEES.NS"},
+    "LIQUIDBEES":     {"name": "Liquid BeES",                 "yf": "LIQUIDBEES.NS"},
+    "PSUBNKBEES":     {"name": "Nifty PSU Bank BeES",         "yf": "PSUBNKBEES.NS"},
+    "HDFCSML250":     {"name": "HDFC Nifty Smallcap 250 ETF", "yf": "HDFCSML250.NS"},
+}
 # ---------------------------------------------------------------------------
 # Notifications (ntfy.sh — free, no account)
 # Pick your own random topic name (Setup step 1 in the README) and either
