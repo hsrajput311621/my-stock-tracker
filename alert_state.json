@@ -1,10 +1,4 @@
 {
-  "date": "2026-10-23",
-  "levels": {
-    "NEXT50IETF": 2.0,
-    "MIDCAPETF": 2.0,
-    "GOLDBEES": 2.0,
-    "PSUBNKBEES": 2.0,
-    "HDFCSML250": 4.0
-  }
+  "date": "2026-10-26",
+  "levels": {}
 }
